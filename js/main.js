@@ -11,3 +11,6 @@ function myFunction() {
     }
 }
 
+// Disable autoplay (recommended)
+// false is the default value
+document.querySelector("#video").autoplay = false;

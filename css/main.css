@@ -310,7 +310,14 @@ nav a:hover,
     ;
 }
 
-.enter-now{
-  width: 50px ;
+#screen_container
+{
+    width:50%;
+    height:50%;
+    position:relative;
   
+}
+.video-com {
+  max-width: 50px;
+
 }
