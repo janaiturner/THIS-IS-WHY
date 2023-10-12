@@ -220,11 +220,11 @@ nav a,
 nav a:hover,
 .my-button:hover {
   color: white;
-  background-color: #a52a2a;
+  background-color: #000000;
 }
 
 .my-second-button {
-  background-color: #a52a2a;
+  background-color: #ffffff;
   color: #000000;
 }
 
@@ -234,16 +234,14 @@ nav a:hover,
 }
 
 
-/* Lavendar Chicken section */
-.lavendar-chicken-main-wrapper,
-.yellow-pig-main-wrapper {
+.night-purple-main-wrapper {
   display: flex;
   flex-direction: column;
   height: 100vh;
 }
 
-.lavendar-chicken-header,
-.yellow-pig-header {
+
+.night-purple-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -251,8 +249,7 @@ nav a:hover,
 }
 
 @media (max-width: 767px) {
-  .lavendar-chicken-header,
-  .yellow-pig-header {
+  .night-purple-header {
     flex-direction: column;
     gap: 16px;
     padding-top: 8px;
@@ -260,14 +257,12 @@ nav a:hover,
   }
 }
 
-.lavendar-chicken-featured-wrapper,
-.yellow-pig-featured-wrapper {
+.night-purple-featured-wrapper {
   display: flex;
   background-color: #a52a2a;
 }
 
-.lavendar-chicken-main,
-.yellow-pig-main {
+.night-purple-main {
   flex: 1;
   padding-top: 24px;
   padding-bottom: 24px;
@@ -276,27 +271,23 @@ nav a:hover,
   margin-right: auto;
 }
 
-.lavendar-chicken-footer,
-.yellow-pig-footer {
+.night-purple-footer {
   background-color: #000000
 }
 
-.lavendar-chicken-feature-items,
-.yellow-pig-feature-items {
+.night-purple-feature-items {
   display: flex;
   gap: 24px;
 }
 
 /* for phone */
 @media (max-width: 767px) {
-  .lavendar-chicken-feature-items,
-  .yellow-pig-feature-items {
+  .night-purple-feature-items {
     flex-direction: column;
   }
 }
 
-.lavendar-chicken-feature-item,
-.yellow-pig-feature-item {
+.night-purple-feature-item {
   background-color: rgba(255, 250, 240, 0)
 }
 
@@ -313,9 +304,8 @@ nav a:hover,
   align-self: center
   ;
 }
-.yellow-pig-logo {
+.night-purple-logo {
   width: 350px;
     align-self: center
     ;
 }
-
