@@ -223,14 +223,14 @@ nav a:hover,
   background-color: #a52a2a;
 }
 
-.my-secondary-button {
-  background-color: #00c200;
-  color: #000;
+.my-second-button {
+  background-color: #a52a2a;
+  color: #000000;
 }
 
-.my-secondary-button:hover {
-  color: #00c200;
-  background-color: #000;
+.my-second-button:hover {
+  color: #ffffff;
+  background-color: #000000;
 }
 
 
@@ -318,3 +318,4 @@ nav a:hover,
     align-self: center
     ;
 }
+
